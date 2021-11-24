@@ -1,4 +1,13 @@
-.btn {
+button {
+  background-image: linear-gradient(180deg, #e1a0a0, #e58181);
+  box-shadow: 0 10px 40px #6B3838;
+}
+
+button:hover {
+  background-image: linear-gradient(180deg, #E2C1C1, #EA8282);
+}
+
+.resetBtn {
   position: absolute;
   left: 67.91%;
   right: 0%;
@@ -9,6 +18,23 @@
   border-radius: 7px;
 }
 
+.taskAddBtn {
+  position: absolute;
+  left: 82.48%;
+  right: 12.72%;
+  top: 43.84%;
+  bottom: 53.93%;
+  border-radius: 50px;
+  height: 20px;
+  width: 20px;
+  background: #E68181;
+}
+
+i {
+  font-size: 15px;
+  text-align: center;
+}
+
 nav {
   position: absolute;
   left: 0%;
@@ -17,10 +43,16 @@ nav {
   bottom: 16%;
   font-family: Jost;
   font-style: normal;
-  font-weight: 500;
+  font-weight: medium;
   font-size: 24px;
   line-height: 35px;
   color: #FFFFFF;
+  height: 35px;
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
 }
 
 body {
@@ -66,15 +98,6 @@ p {
   border: 1px dashed #6C6A7C;
   box-sizing: border-box;
   border-radius: 7px;
-}
-
-.taskAddBtn {
-  position: absolute;
-  left: 82.48%;
-  right: 12.72%;
-  top: 43.84%;
-  bottom: 53.93%;
-  background: #E68181;
 }
 
 .tasks {
