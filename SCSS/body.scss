@@ -1,0 +1,83 @@
+body {
+    background-color: #232229;
+}
+
+h1 {
+    position: absolute;
+    width: 347px;
+    height: 38px;
+    left: 27px;
+    top: 222px;
+
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 104.5%;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+}
+
+p {
+    position: absolute;
+    width: 374px;
+    height: 72px;
+    left: 27px;
+    top: 278px;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6C6A7C;
+}
+
+.taskAdd {
+    position: absolute;
+    width: 374px;
+    height: 60px;
+    left: 27px;
+    top: 386px;
+    background: #2B2A33;
+    border: 1px dashed #6C6A7C;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.taskAddBtn {
+    position: absolute;
+    left: 82.48%;
+    right: 12.72%;
+    top: 43.84%;
+    bottom: 53.93%;
+    background: #E68181;
+}
+
+.tasks {
+position: absolute;
+width: 36px;
+height: 23px;
+left: 28px;
+top: 499px;
+font-family: Jost;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 23px;
+color: #FFFFFF;
+
+}
+
+.tasksComplete {
+position: absolute;
+width: 284px;
+height: 23px;
+left: 27px;
+top: 543px;
+font-family: Jost;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+color: #6C6A7C;
+}
