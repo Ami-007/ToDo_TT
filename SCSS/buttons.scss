@@ -13,18 +13,14 @@ button:hover {
     right: 0%;
     top: 0%;
     bottom: 0%;
-    background: linear-gradient(180deg, #E1A0A0 0%, #E68181 100%);
-    box-shadow: 0px 10px 40px #6B3838;
     border-radius: 7px;
-    position: absolute;
     font-family: Jost;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 150%;
-    display: flex;
-    align-items: center;
     color: #FFFFFF;
+    height: 50px;
+    width: 120px;
 }
 
 .taskAddBtn {
